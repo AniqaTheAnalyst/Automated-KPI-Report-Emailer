@@ -1,0 +1,1 @@
+SELECT ROUND(100*AVG( int_rate ), 2) as AVG_Interest_rate FROM bank_loan;

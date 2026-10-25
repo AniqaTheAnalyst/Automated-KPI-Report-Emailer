@@ -1,0 +1,1 @@
+select SUM( loan_amount )  as Bad_loan_Funded_amount from bank_loan where loan_status ='Charged Off' ;

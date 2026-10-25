@@ -1,0 +1,1 @@
+SELECT ROUND(100*AVG(dti ) , 2)as AVG_DTI FROM bank_loan;

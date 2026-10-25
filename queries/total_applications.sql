@@ -1,0 +1,1 @@
+select count(id)  as Total_application from bank_loan;

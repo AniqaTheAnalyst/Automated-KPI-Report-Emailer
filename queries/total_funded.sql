@@ -1,0 +1,1 @@
+select SUM( loan_amount )  as Total_Funded_amount from bank_loan ;

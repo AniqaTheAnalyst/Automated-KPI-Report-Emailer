@@ -1,0 +1,1 @@
+SELECT COUNT( id ) AS total_num , CASE   WHEN loan_status IN ( 'Fully Paid' , 'Current' ) THEN 'GOOD' ELSE 'BAD' END AS loan_category FROM bank_loan GROUP BY CASE WHEN loan_status IN ( 'Fully Paid' , 'Current' )  THEN 'GOOD' ELSE 'BAD' END;

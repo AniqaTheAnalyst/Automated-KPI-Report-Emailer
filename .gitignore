@@ -1,0 +1,6 @@
+venv/
+.env
+*.xlsx
+!sample_output/*.xlsx
+__pycache__/
+.vscode/

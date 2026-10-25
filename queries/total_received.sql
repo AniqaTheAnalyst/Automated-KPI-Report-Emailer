@@ -1,0 +1,1 @@
+select SUM(total_payment ) as total_Amount_received from bank_loan;
